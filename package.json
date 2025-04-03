@@ -2,6 +2,9 @@
   "name": "tryarweave",
   "version": "0.1.0",
   "private": true,
+  "type": "module",
+  "license": "MIT",
+  "description": "A simple Arweave app",
   "scripts": {
     "dev": "next dev --turbopack",
     "build": "next build",
