@@ -9,7 +9,9 @@
 !.yarn/plugins
 !.yarn/releases
 !.yarn/versions
-
+wallet.json
+testwallet.json
+transactionid.js
 # testing
 /coverage
 
