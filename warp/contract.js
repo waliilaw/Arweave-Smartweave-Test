@@ -9,20 +9,17 @@ export function handle(state , action){
         const posts = state.posts || []
         posts[action.input.post.id] = action.input.post
         state.posts = posts
-        state.postCount = state.postCount || 0
-        state.postCount += 1
     }
     if(action.input.function === "editPost" && action.caller == state.author){
         const posts = state.posts || []
-        const postToUpdate = posts[action.input.post.id]
-        posts[action.input.post.id] = action.input.post
+        const postToUpdate = action.input.post
+        posts[postToUpdate.id] = postToUpdate
         state.posts = posts
     }
-
     if(action.input.function === "deletePost" && action.caller == state.author){
-
+        const posts = state.posts || []
+        state.posts = posts
     }
-
     return (
         state
     )
