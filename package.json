@@ -1,29 +1,24 @@
 {
-  "name": "tryarweave",
+  "name": "arweave-warp",
   "version": "0.1.0",
   "private": true,
   "type": "module",
-  "license": "MIT",
-  "description": "A simple Arweave app",
   "scripts": {
-    "dev": "next dev --turbopack",
+    "dev": "next dev",
     "build": "next build",
     "start": "next start",
     "lint": "next lint"
   },
   "dependencies": {
-    "next": "15.2.4",
-    "react": "^19.0.0",
-    "react-dom": "^19.0.0",
-    "react-markdown": "^10.1.0",
-    "uuid": "^11.1.0",
-    "warp-contracts": "^1.4.45"
+    "next": "12.2.5",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-markdown": "^8.0.3",
+    "uuid": "^8.3.2",
+    "warp-contracts": "^1.2.17"
   },
   "devDependencies": {
-    "@eslint/eslintrc": "^3",
-    "@tailwindcss/postcss": "^4",
-    "eslint": "^9",
-    "eslint-config-next": "15.2.4",
-    "tailwindcss": "^4"
+    "eslint": "8.22.0",
+    "eslint-config-next": "12.2.5"
   }
 }
